@@ -3,4 +3,4 @@ Script for changing resolv.conf to fit with DNSCrypt default configuration. Make
 
 This script will replace your /etc/resolv.conf with modded resolv.conf (just adding 127.0.0.1 nameserver, really).
 
-You can edit / change this modded resolv.conf with your own fit. Just remember to follow basic instruction from [DNSCrypt](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux).
+You can edit / change this modded resolv.conf with your own fit. Just remember to follow basic instruction from [DNSCrypt instalation](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux).
