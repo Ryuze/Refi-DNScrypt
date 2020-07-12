@@ -1,6 +1,6 @@
-# Crappy-DNScrypt
-File pendukung untuk menjalankan DNScrypt-proxy
+# Refi-DNScrypt
+Script for changing resolv.conf to fit with DNSCrypt default configuration. Make sure that your DNSCrypt is working and installed in /opt/dnscrypt-proxy if you don't want to change anything in this script (this thing just replace file with other, really crappy right?).
 
-Tujuan file ini adalah melakukan rewrite pada file /etc/resolv.conf dan menjalankan ./opt/dnscrypt-proxy/dnscrypt-proxy -service start
+This script will replace your /etc/resolv.conf with modded resolv.conf (just adding 127.0.0.1 nameserver, really).
 
-Untuk menghentikan service, gunakan ./opt/dnscrypt-proxy/dnscrypt-proxy -service stop dan ubah nameserver pada /etc/resolv.conf menjadi 127.0.0.53
+You can edit / change this modded resolv.conf with your own fit. Just remember to follow basic instruction from [DNSCrypt](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux).
